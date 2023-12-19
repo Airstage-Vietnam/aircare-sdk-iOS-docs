@@ -40,233 +40,233 @@ A simple SDK services with HealthKit
 
 ### Characteristic identifiers
 
-- activityMoveMode: A characteristic identifier for the user’s activity mode.
-- biologicalSex: A characteristic type identifier for the user’s sex.
-- bloodType: A characteristic type identifier for the user’s blood type.
-- dateOfBirth: A characteristic type identifier for the user’s date of birth.
-- fitzpatrickSkinType: A characteristic type identifier for the user’s skin type.
-- wheelchairUse: A characteristic identifier for the user’s use of a wheelchair.
+- **activityMoveMode**: A characteristic identifier for the user’s activity mode.
+- **biologicalSex**: A characteristic type identifier for the user’s sex.
+- **bloodType**: A characteristic type identifier for the user’s blood type.
+- **dateOfBirth**: A characteristic type identifier for the user’s date of birth.
+- **fitzpatrickSkinType**: A characteristic type identifier for the user’s skin type.
+- **wheelchairUse**: A characteristic identifier for the user’s use of a wheelchair.
 
 ### Activity
 
-- stepCount:
+- **stepCount**:
 A quantity sample type that measures the number of steps the user has taken.
-- distanceWalkingRunning:
+- **distanceWalkingRunning**:
 A quantity sample type that measures the distance the user has moved by walking or running.
-- runningSpeed:
+- **runningSpeed**:
 A quantity sample type that measures the runner’s speed.
-- runningStrideLength:
+- **runningStrideLength**:
 A quantity sample type that measures the distance covered by a single step while running.
-- runningPower:
+- **runningPower**:
 A quantity sample type that measures the rate of work required for the runner to maintain their speed.
-- runningGroundContactTime:
+- **runningGroundContactTime**:
 A quantity sample type that measures the amount of time the runner’s foot is in contact with the ground while running.
-- runningVerticalOscillation:
+- **runningVerticalOscillation**:
 A quantity sample type measuring pelvis vertical range of motion during a single running stride.
-- distanceCycling:
+- **distanceCycling**:
 A quantity sample type that measures the distance the user has moved by cycling.
-- pushCount:
+- **pushCount**:
 A quantity sample type that measures the number of pushes that the user has performed while using a wheelchair.
-- distanceWheelchair:
+- **distanceWheelchair**:
 A quantity sample type that measures the distance the user has moved using a wheelchair.
-- swimmingStrokeCount:
+- **swimmingStrokeCount**:
 A quantity sample type that measures the number of strokes performed while swimming.
-- distanceSwimming:
+- **distanceSwimming**:
 A quantity sample type that measures the distance the user has moved while swimming.
-- distanceDownhillSnowSports:
+- **distanceDownhillSnowSports**:
 A quantity sample type that measures the distance the user has traveled while skiing or snowboarding.
-- basalEnergyBurned:
+- **basalEnergyBurned**:
 A quantity sample type that measures the resting energy burned by the user.
-- activeEnergyBurned:
+- **activeEnergyBurned**:
 A quantity sample type that measures the amount of active energy the user has burned.
-- flightsClimbed:
+- **flightsClimbed**:
 A quantity sample type that measures the number flights of stairs that the user has climbed.
-- nikeFuel:
+- **nikeFuel**:
 A quantity sample type that measures the number of NikeFuel points the user has earned.
-- appleExerciseTime:
+- **appleExerciseTime**:
 A quantity sample type that measures the amount of time the user spent exercising.
-- appleMoveTime:
+- **appleMoveTime**:
 A quantity sample type that measures the amount of time the user has spent performing activities that involve full-body movements during the specified day.
-- appleStandTime:
+- **appleStandTime**:
 A quantity sample type that measures the amount of time the user has spent standing.
-- vo2Max:
+- **vo2Max**:
 A quantity sample that measures the maximal oxygen consumption during exercise.
-- lowCardioFitnessEvent:
+- **lowCardioFitnessEvent**:
 An event that indicates the user’s VO2 max values consistently fall below a particular aerobic fitness threshold.
-- appleStandHour:
+- **appleStandHour**:
 A category sample type that counts the number of hours in the day during which the user has stood and moved for at least one minute per hour.
 
 ### Body measurements
 
-- height:
+- **height**:
 A quantity sample type that measures the user’s height.
-- bodyMass:
+- **bodyMass**:
 A quantity sample type that measures the user’s weight.
-- bodyMassIndex:
+- **bodyMassIndex**:
 A quantity sample type that measures the user’s body mass index.
-- leanBodyMass:
+- **leanBodyMass**:
 A quantity sample type that measures the user’s lean body mass.
-- bodyFatPercentage:
+- **bodyFatPercentage**:
 A quantity sample type that measures the user’s body fat percentage.
-- waistCircumference:
+- **waistCircumference**:
 A quantity sample type that measures the user’s waist circumference.
-- appleSleepingWristTemperature:
+- **appleSleepingWristTemperature**:
 A quantity sample type that records the wrist temperature during sleep.
 
 ### Reproductive health
 
-- menstrualFlow:
+- **menstrualFlow**:
 A category sample type that records menstrual cycles.
-- intermenstrualBleeding:
+- **intermenstrualBleeding**:
 A category sample type that records spotting outside the normal menstruation period.
-- infrequentMenstrualCycles:
+- **infrequentMenstrualCycles**:
 A category sample that indicates an infrequent menstrual cycle.
-- irregularMenstrualCycles:
+- **irregularMenstrualCycles**:
 A category sample that indicates an irregular menstrual cycle.
-- persistentIntermenstrualBleeding:
+- **persistentIntermenstrualBleeding**:
 A category sample that indicates persistent intermenstrual bleeding.
-- prolongedMenstrualPeriods:
+- **prolongedMenstrualPeriods**:
 A category sample that indicates a prolonged menstrual cycle.
-- cervicalMucusQuality:
+- **cervicalMucusQuality**:
 A category sample type that records the quality of the user’s cervical mucus.
-- ovulationTestResult:
+- **ovulationTestResult**:
 A category sample type that records the result of an ovulation home test.
-- progesteroneTestResult:
+- **progesteroneTestResult**:
 A category type that represents the results from a home progesterone test.
-- sexualActivity:
+- **sexualActivity**:
 A category sample type that records sexual activity.
-- contraceptive:
+- **contraceptive**:
 A category sample type that records the use of contraceptives.
-- pregnancy:
+- **pregnancy**:
 A category type that records pregnancy.
-- pregnancyTestResult:
+- **pregnancyTestResult**:
 A category type that represents the results from a home pregnancy test.
-- lactation:
+- **lactation**:
 A category type that records lactation.
-- basalBodyTemperature:
+- **basalBodyTemperature**:
 A quantity sample type that records the user’s basal body temperature.
 
 ### Hearing
 
-- environmentalAudioExposure:
+- **environmentalAudioExposure**:
 A quantity sample type that measures audio exposure to sounds in the environment.
-- headphoneAudioExposure:
+- **headphoneAudioExposure**:
 A quantity sample type that measures audio exposure from headphones.
-- environmentalAudioExposureEvent:
+- **environmentalAudioExposureEvent**:
 A category sample type that records exposure to potentially damaging sounds from the environment.
-- headphoneAudioExposureEvent:
+- **headphoneAudioExposureEvent**:
 A category sample type that records exposure to potentially damaging sounds from headphones.
-- audioExposureEvent:
+- **audioExposureEvent**:
 A category sample type for audio exposure events.
 
 ### Vital signs
 
-- heartRate:
+- **heartRate**:
 A quantity sample type that measures the user’s heart rate.
-- lowHeartRateEvent:
+- **lowHeartRateEvent**:
 A category sample type for low heart rate events.
-- highHeartRateEvent:
+- **highHeartRateEvent**:
 A category sample type for high heart rate events.
-- irregularHeartRhythmEvent:
+- **irregularHeartRhythmEvent**:
 A category sample type for irregular heart rhythm events.
-- restingHeartRate:
+- **restingHeartRate**:
 A quantity sample type that measures the user’s resting heart rate.
-- heartRateVariabilitySDNN:
+- **heartRateVariabilitySDNN**:
 A quantity sample type that measures the standard deviation of heartbeat intervals.
-- heartRateRecoveryOneMinute:
+- **heartRateRecoveryOneMinute**:
 A quantity sample that records the reduction in heart rate from the peak exercise rate to the rate one minute after exercising ended.
-- atrialFibrillationBurden:
+- **atrialFibrillationBurden**:
 A quantity type that measures an estimate of the percentage of time a person’s heart shows signs of atrial fibrillation (AFib) while wearing Apple Watch.
-- walkingHeartRateAverage:
+- **walkingHeartRateAverage**:
 A quantity sample type that measures the user’s heart rate while walking.
-- oxygenSaturation:
+- **oxygenSaturation**:
 A quantity sample type that measures the user’s oxygen saturation.
-- bodyTemperature:
+- **bodyTemperature**:
 A quantity sample type that measures the user’s body temperature.
-- bloodPressure:
+- **bloodPressure**:
 A correlation sample that combines a systolic sample and a diastolic sample into a single blood pressure reading.
-- bloodPressureSystolic:
+- **bloodPressureSystolic**:
 A quantity sample type that measures the user’s systolic blood pressure.
-- bloodPressureDiastolic:
+- **bloodPressureDiastolic**:
 A quantity sample type that measures the user’s diastolic blood pressure.
-- respiratoryRate:
+- **respiratoryRate**:
 A quantity sample type that measures the user’s respiratory rate.
 
 ### Alcohol consumption
 
-- bloodAlcoholContent:
+- **bloodAlcoholContent**:
 A quantity sample type that measures the user’s blood alcohol content.
-- numberOfAlcoholicBeverages:
+- **numberOfAlcoholicBeverages**:
 A quantity sample type that measures the number of standard alcoholic drinks that the user has consumed.
 
 ### Mobility
 
-- appleWalkingSteadiness:
+- **appleWalkingSteadiness**:
 A quantity sample type that measures the steadiness of the user’s gait.
-- appleWalkingSteadinessEvent:
+- **appleWalkingSteadinessEvent**:
 A category sample type that records an incident where the user showed a reduced score for their gait’s steadiness.
-- sixMinuteWalkTestDistance:
+- **sixMinuteWalkTestDistance**:
 A quantity sample type that stores the distance a user can walk during a six-minute walk test.
-- walkingSpeed:
+- **walkingSpeed**:
 A quantity sample type that measures the user’s average speed when walking steadily over flat ground.
-- walkingStepLength:
+- **walkingStepLength**:
 A quantity sample type that measures the average length of the user’s step when walking steadily over flat ground.
-- walkingAsymmetryPercentage:
+- **walkingAsymmetryPercentage**:
 A quantity sample type that measures the percentage of steps in which one foot moves at a different speed than the other when walking on flat ground.
-- walkingDoubleSupportPercentage:
+- **walkingDoubleSupportPercentage**:
 A quantity sample type that measures the percentage of time when both of the user’s feet touch the ground while walking steadily over flat ground.
-- stairAscentSpeed:
+- **stairAscentSpeed**:
 A quantity sample type measuring the user’s speed while climbing a flight of stairs.
-- stairDescentSpeed:
+- **stairDescentSpeed**:
 A quantity sample type measuring the user’s speed while descending a flight of stairs.
 
 ### Lab and test results
 
-- bloodAlcoholContent:
+- **bloodAlcoholContent**:
 A quantity sample type that measures the user’s blood alcohol content.
-- bloodGlucose:
+- **bloodGlucose**:
 A quantity sample type that measures the user’s blood glucose level.
-- electrodermalActivity:
+- **electrodermalActivity**:
 A quantity sample type that measures electrodermal activity.
-- forcedExpiratoryVolume1:
+- **forcedExpiratoryVolume1**:
 A quantity sample type that measures the amount of air that can be forcibly exhaled from the lungs during the first second of a forced exhalation.
-- forcedVitalCapacity:
+- **forcedVitalCapacity**:
 A quantity sample type that measures the amount of air that can be forcibly exhaled from the lungs after taking the deepest breath possible.
-- inhalerUsage:
+- **inhalerUsage**:
 A quantity sample type that measures the number of puffs the user takes from their inhaler.
-- insulinDelivery:
+- **insulinDelivery**:
 A quantity sample that measures the amount of insulin delivered.
-- numberOfTimesFallen:
+- **numberOfTimesFallen**:
 A quantity sample type that measures the number of times the user fell.
-- peakExpiratoryFlowRate:
+- **peakExpiratoryFlowRate**:
 A quantity sample type that measures the user’s maximum flow rate generated during a forceful exhalation.
-- peripheralPerfusionIndex:
+- **peripheralPerfusionIndex**:
 A quantity sample type that measures the user’s peripheral perfusion index.
 
 ### Mindfulness and sleep
 
-- mindfulSession:
+- **mindfulSession**:
 A category sample type for recording a mindful session.
-- sleepAnalysis:
+- **sleepAnalysis**:
 A category sample type for sleep analysis information.
 
 ### Self care
 
-- toothbrushingEvent:
+- **toothbrushingEvent**:
 A category sample type for toothbrushing events.
-- handwashingEvent:
+- **handwashingEvent**:
 A category sample type for handwashing events.
 
 ### UV exposure
 
-- uvExposure:
+- **uvExposure**:
 A quantity sample type that measures the user’s exposure to UV radiation.
 
 ### Diving
 
-- underwaterDepth:
+- **underwaterDepth**:
 A quantity sample that records a person’s depth underwater.
-- waterTemperature:
+- **waterTemperature**:
 A quantity sample that records the water temperature.
 
 ## Data types structure reference
